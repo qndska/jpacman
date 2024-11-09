@@ -101,7 +101,4 @@ jobs:
       - name: Generate and submit dependency graph
         uses: gradle/actions/dependency-submission@v4
 
-      - name: View dependency submission JSON file
-        run: cat dependency-graph-reports/jpacman_ci_with_gradle-dependency-submission.json
-
 
